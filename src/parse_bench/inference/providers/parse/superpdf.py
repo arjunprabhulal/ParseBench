@@ -44,7 +44,7 @@ from parse_bench.schemas.product import ProductType
 
 # Path to the ``superpdf`` command (``npm install -g @superpdf/cli@0.1.1``). Resolution
 # order: ``SUPERPDF_BIN`` env var, then ``superpdf`` on ``PATH``.
-SUPERPDF_CLI_VERSION = "0.1.0"
+SUPERPDF_CLI_VERSION = "0.1.1"
 _SUPERPDF_BIN = Path(os.environ.get("SUPERPDF_BIN") or shutil.which("superpdf") or "superpdf")
 
 # Writes a PNG or JPEG (argv[1]) as a one-page PDF (argv[2]), run from the package folder.
